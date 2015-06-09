@@ -1,4 +1,4 @@
-ackage com.travelocity.service;
+package com.travelocity.service;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import com.travelocity.model.User;
 
 public interface UserService {
     
-	public void insertUser(User user);
+  public void insertUser(User user);
 	
-	public void updateUser(User user);
+  public void updateUser(User user);
     
   public User getUser(String email);
     
